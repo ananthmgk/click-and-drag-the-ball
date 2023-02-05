@@ -4,7 +4,7 @@ window.addEventListener('load', () => {
   let startX;
   let startY;
 
-  // Get current origin (x & y) of the ball
+  // Get current origin (x & y) of the ball.
   let originX = ball.offsetLeft;
   let originY = ball.offsetTop;
 
