@@ -4,11 +4,15 @@ body {
   margin: 0%;
   padding: 200px;
 }
-
 .ball {
   width: 100px;
   height: 100px;
   background-color: red;
   border-radius: 50px;
+
+  /* To center the ball */
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
